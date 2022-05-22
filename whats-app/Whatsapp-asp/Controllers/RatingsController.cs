@@ -25,6 +25,18 @@ namespace Whatsapp_asp.Controllers
         {
             return View(await _context.Rating.ToListAsync());
         }
+        public async Task<IActionResult> Search()
+        {
+            return View(await _context.Rating.ToListAsync());
+        }
+        [HttpPost]
+        public async Task<IActionResult> Search(string id)
+        {
+            var q = from Rating in _context.Rating
+                    where Rating.Name.Contains(id)
+                    select Rating;
+            return View(await q.ToListAsync());
+        }
 
         // GET: Ratings/Details/5
         public async Task<IActionResult> Details(string id)
@@ -64,22 +76,6 @@ namespace Whatsapp_asp.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(rating);
-        }
-        public async Task<IActionResult> Search(string id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var rating = await _context.Rating
-                .FirstOrDefaultAsync(m => m.Name == id);
-            if (rating == null)
-            {
-                return NotFound();
-            }
-
             return View(rating);
         }
 
