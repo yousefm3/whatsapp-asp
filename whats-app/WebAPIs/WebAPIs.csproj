@@ -11,14 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Views\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="wwwroot\images\Bild-2021-04-25-092528.png00" />
-    <None Include="wwwroot\images\images.jpg" />
-    <None Include="wwwroot\images\images.jpg00" />
-    <None Include="wwwroot\images\qwded admin.jpeg" />
+    <Folder Include="wwwroot\images\" />
   </ItemGroup>
 
 </Project>

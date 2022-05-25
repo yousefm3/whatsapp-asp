@@ -5741,19 +5741,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ahmad\\.nuget\\packages\\": {}
+    "C:\\Users\\venom\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ahmad\\OneDrive\\المستندات\\GitHub\\whatsapp-asp\\whats-app\\apis\\WebAPIs\\WebAPIs.csproj",
+      "projectUniqueName": "C:\\Users\\venom\\Source\\Repos\\signalR\\WebAPIs\\WebAPIs.csproj",
       "projectName": "WebAPIs",
-      "projectPath": "C:\\Users\\ahmad\\OneDrive\\المستندات\\GitHub\\whatsapp-asp\\whats-app\\apis\\WebAPIs\\WebAPIs.csproj",
-      "packagesPath": "C:\\Users\\ahmad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ahmad\\OneDrive\\المستندات\\GitHub\\whatsapp-asp\\whats-app\\apis\\WebAPIs\\obj\\",
+      "projectPath": "C:\\Users\\venom\\Source\\Repos\\signalR\\WebAPIs\\WebAPIs.csproj",
+      "packagesPath": "C:\\Users\\venom\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\venom\\Source\\Repos\\signalR\\WebAPIs\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ahmad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\venom\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5810,7 +5810,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   },

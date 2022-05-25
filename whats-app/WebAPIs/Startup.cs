@@ -29,6 +29,7 @@ namespace WebAPIs
                 c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin());
             });
             services.AddDbContext<Context>(x => x.UseSqlServer(Configuration.GetConnectionString("ConStr")));
+            services.AddSingleton<IDictionary<string, userConnection>>(opts => new Dictionary<string, userConnection>());
             services.AddControllersWithViews();
             services.AddSignalR();
 
@@ -67,6 +68,10 @@ namespace WebAPIs
                 //{
                 //    await context.Response.WriteAsync("Hello World!");
                 //});
+            });
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapHub<ChatHub>("/chat");
             });
         }
     }
