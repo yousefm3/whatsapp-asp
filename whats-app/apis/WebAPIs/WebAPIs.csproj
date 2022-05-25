@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="5.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.17" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\Bild-2021-04-25-092528.png00" />
+    <None Include="wwwroot\images\images.jpg" />
+    <None Include="wwwroot\images\images.jpg00" />
+    <None Include="wwwroot\images\qwded admin.jpeg" />
+  </ItemGroup>
+
+</Project>

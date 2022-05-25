@@ -5,7 +5,7 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Whatsapp-rating", "Whatsapp-asp\Whatsapp-rating.csproj", "{38D4162E-4EDE-427F-A2A8-32B5EC41C563}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "whatsAppClone", "..\..\..\..\..\Downloads\WhatsappClone\whatsAppClone\whatsAppClone.csproj", "{FB39AC6E-DC74-45AC-9CCE-5C4792EF2C61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPIs", "apis\WebAPIs\WebAPIs.csproj", "{CC64C0D2-F03E-4CC2-88D7-70A4EA62B3DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{38D4162E-4EDE-427F-A2A8-32B5EC41C563}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38D4162E-4EDE-427F-A2A8-32B5EC41C563}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38D4162E-4EDE-427F-A2A8-32B5EC41C563}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FB39AC6E-DC74-45AC-9CCE-5C4792EF2C61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FB39AC6E-DC74-45AC-9CCE-5C4792EF2C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FB39AC6E-DC74-45AC-9CCE-5C4792EF2C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FB39AC6E-DC74-45AC-9CCE-5C4792EF2C61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC64C0D2-F03E-4CC2-88D7-70A4EA62B3DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC64C0D2-F03E-4CC2-88D7-70A4EA62B3DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC64C0D2-F03E-4CC2-88D7-70A4EA62B3DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC64C0D2-F03E-4CC2-88D7-70A4EA62B3DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
