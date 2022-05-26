@@ -109,7 +109,7 @@ export default function Login({ setUser, setChats, setNotification }) {
       </section>
       <p className="position-absolute bottom-0 end-0">
         Do you want to rate ?{" "}
-        <a className={styles.anchor_link} href="/login">
+        <a className={styles.anchor_link} target="_blanc" href="http://localhost:5012/Ratings/Create">
           Rating
         </a>
       </p>

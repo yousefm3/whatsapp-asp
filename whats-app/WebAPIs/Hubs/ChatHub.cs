@@ -56,7 +56,7 @@ namespace whatsAppClone.Hubs
                     time = DateTime.Now
                 };
                 await Clients.AllExcept(join)
-                    .SendAsync("ReceiveMessage‏‎‏‎", "test", "test");
+                    .SendAsync("ReceiveMessage", messagesData);
         }
         [EnableCors("AllowOrigin")]
         public async Task JoinRoom(string join) 

@@ -74,7 +74,8 @@ namespace Whatsapp_asp.Controllers
             {
                 _context.Add(rating);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return Redirect("http://localhost:3000");
+                //return RedirectToAction(nameof(Index));
             }
             return View(rating);
         }

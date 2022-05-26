@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\venom\\Source\\Repos\\signalR\\WebAPIs\\WebAPIs.csproj": {}
+    "C:\\Users\\mohme\\Desktop\\t5not2\\final\\marge\\WebAPIs\\WebAPIs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\venom\\Source\\Repos\\signalR\\WebAPIs\\WebAPIs.csproj": {
+    "C:\\Users\\mohme\\Desktop\\t5not2\\final\\marge\\WebAPIs\\WebAPIs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\venom\\Source\\Repos\\signalR\\WebAPIs\\WebAPIs.csproj",
+        "projectUniqueName": "C:\\Users\\mohme\\Desktop\\t5not2\\final\\marge\\WebAPIs\\WebAPIs.csproj",
         "projectName": "WebAPIs",
-        "projectPath": "C:\\Users\\venom\\Source\\Repos\\signalR\\WebAPIs\\WebAPIs.csproj",
-        "packagesPath": "C:\\Users\\venom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\venom\\Source\\Repos\\signalR\\WebAPIs\\obj\\",
+        "projectPath": "C:\\Users\\mohme\\Desktop\\t5not2\\final\\marge\\WebAPIs\\WebAPIs.csproj",
+        "packagesPath": "C:\\Users\\mohme\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mohme\\Desktop\\t5not2\\final\\marge\\WebAPIs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\venom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mohme\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

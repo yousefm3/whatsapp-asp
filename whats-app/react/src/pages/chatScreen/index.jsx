@@ -39,52 +39,49 @@ export default function ChatScreen({ chats, setChats, user }) {
         .configureLogging(LogLevel.Information)
         .build();
 
-      connection.on("ReceiveMessage", (a, b) => {
-        console.log(a, b);
-        debugger;
+      connection.on("ReceiveMessage", (messagesData) => {
+        const { from, to, content, time } = messagesData;
 
-        // const { from, to, content, time } = messagesData;
+        const isToMe = to.username === username;
 
-        // const isToMe = to.username === username;
+        if (!isToMe) return;
 
-        // if (!isToMe) return;
+        setChats((prev) => {
+          // cuurent chat data
+          const cuurentChat = {
+            contact: {
+              username: from.username,
+              displayName: from.displayName,
+              avatar: from.avatar || defaultAvatar,
+            },
+            messages: [
+              {
+                content,
+                time,
+                isSender: true,
+                sender: from.displayName,
+              },
+            ],
+          };
 
-        // setChats((prev) => {
-        //   // cuurent chat data
-        //   const cuurentChat = {
-        //     contact: {
-        //       username: from.username,
-        //       displayName: from.displayName,
-        //       avatar: from.avatar || defaultAvatar,
-        //     },
-        //     messages: [
-        //       {
-        //         content,
-        //         time,
-        //         isSender: true,
-        //         sender: from.displayName,
-        //       },
-        //     ],
-        //   };
+          // Check if this chat is alredy exist chat
+          const ExistChat = prev.find(
+            (chat) => chat?.contact?.username === from.username
+          );
 
-        //   // Check if this chat is alredy exist chat
-        //   const ExistChat = prev.find(
-        //     (chat) => chat?.contact?.username === from.username
-        //   );
+          if (ExistChat) {
+            // get Chat Message
+            const message = cuurentChat.messages[0];
 
-        //   if (ExistChat) {
-        //     // get Chat Message
-        //     const message = cuurentChat.messages[0];
+            // put message to current chat
+            ExistChat.messages.push(message);
 
-        //     // put message to current chat
-        //     ExistChat.messages.push(message);
+            return [...prev];
+          }
 
-        //     return [...prev];
-        //   }
-
-        //   // new Chat
-        //   return [...prev, cuurentChat];
-        // });
+          // new Chat
+          return [...prev, cuurentChat];
+        });
       });
 
       connection.onclose(() => setConnection());

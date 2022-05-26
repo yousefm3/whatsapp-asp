@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ahmad\\OneDrive\\المستندات\\GitHub\\whatsapp-asp\\whats-app\\Whatsapp-asp\\Whatsapp-rating.csproj": {}
+    "C:\\Users\\mohme\\Desktop\\t5not2\\final\\marge\\whats-app\\Whatsapp-asp\\Whatsapp-rating.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ahmad\\OneDrive\\المستندات\\GitHub\\whatsapp-asp\\whats-app\\Whatsapp-asp\\Whatsapp-rating.csproj": {
+    "C:\\Users\\mohme\\Desktop\\t5not2\\final\\marge\\whats-app\\Whatsapp-asp\\Whatsapp-rating.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ahmad\\OneDrive\\المستندات\\GitHub\\whatsapp-asp\\whats-app\\Whatsapp-asp\\Whatsapp-rating.csproj",
+        "projectUniqueName": "C:\\Users\\mohme\\Desktop\\t5not2\\final\\marge\\whats-app\\Whatsapp-asp\\Whatsapp-rating.csproj",
         "projectName": "Whatsapp-rating",
-        "projectPath": "C:\\Users\\ahmad\\OneDrive\\المستندات\\GitHub\\whatsapp-asp\\whats-app\\Whatsapp-asp\\Whatsapp-rating.csproj",
-        "packagesPath": "C:\\Users\\ahmad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ahmad\\OneDrive\\المستندات\\GitHub\\whatsapp-asp\\whats-app\\Whatsapp-asp\\obj\\",
+        "projectPath": "C:\\Users\\mohme\\Desktop\\t5not2\\final\\marge\\whats-app\\Whatsapp-asp\\Whatsapp-rating.csproj",
+        "packagesPath": "C:\\Users\\mohme\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mohme\\Desktop\\t5not2\\final\\marge\\whats-app\\Whatsapp-asp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ahmad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mohme\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -77,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

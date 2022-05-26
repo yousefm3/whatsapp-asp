@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\venom\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\venom\\.nuget\\packages"
+      "C:\\Users\\mohme\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\mohme\\.nuget\\packages"
     ]
   }
 }

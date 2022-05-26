@@ -166,7 +166,8 @@ namespace WebAPIs.Controllers
                                 {
                                     id = item.Id,
                                     username = us.Username,
-                                    displayName = us.Inname
+                                    displayName = us.Inname,
+                                    server = us.server
                                 };
                                 if (!cons.Contains(temps))
                                     cons.Add(temps);
@@ -263,7 +264,8 @@ namespace WebAPIs.Controllers
                                 {
                                     id = item.Id,
                                     username = us.Username,
-                                    displayName = us.Inname
+                                    displayName = us.Inname,
+                                    server = us.server
                                 };
                                 if (!cons.Contains(temps))
                                     cons.Add(temps);

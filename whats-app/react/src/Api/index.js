@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "https://fd74-102-186-163-96.ngrok.io";
+const API = "http://localhost:2980";
 
 const request = axios.create({
   baseURL: `${API}/api`,
