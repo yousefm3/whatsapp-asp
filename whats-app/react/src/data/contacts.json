@@ -1,0 +1,32 @@
+[
+  {
+    "username": "phillip",
+    "displayName": "phillip morse",
+    "avatar": "phillip.png"
+  },
+  {
+    "username": "mark",
+    "displayName": "mark poole",
+    "avatar": "mark.png"
+  },
+  {
+    "username": "dora",
+    "displayName": "dora sutton",
+    "avatar": "dora.svg"
+  },
+  {
+    "username": "lara",
+    "displayName": "lara prsons",
+    "avatar": "lara.png"
+  },
+  {
+    "username": "max",
+    "displayName": "maxine hamilton",
+    "avatar": "max.png"
+  },
+  {
+    "username": "evie",
+    "displayName": "evie harrell",
+    "avatar": "evie.png"
+  }
+]

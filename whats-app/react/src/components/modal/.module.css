@@ -1,0 +1,29 @@
+.Modal_wrapper {
+  background-color: var(--bg_gray_main_color);
+  border-color: rgba(255, 255, 255, 0.09);
+}
+.white_border {
+  border-color: rgba(255, 255, 255, 0.09);
+}
+.close_btn {
+  background-color: transparent;
+  outline: none;
+  color: var(--main_green_color);
+  border: 0;
+}
+.invite_btn {
+  outline: none;
+  border: 0;
+  background-color: var(--main_green_color);
+  color: #fff;
+  border-radius: 0.25rem;
+  padding: 0.6rem 1.2rem;
+}
+.invite_btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.Modal_wrapper input {
+  display: flex;
+  min-width: 465px !important;
+}

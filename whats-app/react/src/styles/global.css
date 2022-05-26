@@ -1,0 +1,37 @@
+body {
+  font-family: var(--main_font_family);
+  font-size: var(--main_font_size);
+  font-weight: var(--main_font_weight);
+  background-color: var(--bg_gray_main_color);
+  color: var(--main_text_color);
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg_gray_sec_color);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--main_green_color);
+}
+
+audio::-webkit-media-controls-mute-button {
+  display: none;
+}
+
+.global-loader {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.global-loader p {
+  font-size: 1.1em;
+}
+
+button[disabled] {
+  opacity: 0.6;
+  cursor: wait;
+}

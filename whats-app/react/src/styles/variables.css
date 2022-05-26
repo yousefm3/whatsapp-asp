@@ -1,0 +1,13 @@
+:root {
+  /* COLORS */
+  --main_green_color: #4a9f66;
+  --main_text_color: #b3b3b3;
+  --bg_gray_main_color: #262626;
+  --bg_gray_sec_color: #333333;
+  --bs-success: #4a9f66 !important;
+
+  /* FONT */
+  --main_font_family: "poppins";
+  --main_font_size: 14px;
+  --main_font_weight: 400;
+}

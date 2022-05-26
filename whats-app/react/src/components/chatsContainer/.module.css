@@ -1,0 +1,3 @@
+.chats_container {
+  min-height: calc(100% - 88px);
+}

@@ -1,0 +1,10 @@
+.form_submit_btn {
+  outline: none;
+  border: 0;
+  width: 100%;
+  min-width: 290px;
+  border-radius: 5px;
+  padding: 0.7rem 1.5rem;
+  background-color: var(--main_green_color);
+  color: #fff;
+}

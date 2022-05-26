@@ -1,0 +1,29 @@
+.form_input_field {
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 320px;
+}
+.input_label {
+  text-transform: capitalize;
+  margin-bottom: 0.5rem;
+}
+.input_style {
+  min-width: 290px;
+  outline: none;
+  border: 0;
+  background-color: var(--bg_gray_sec_color);
+  color: var(--main_text_color);
+  padding: 0.55rem 1.5rem;
+  border-radius: 5px;
+}
+.input_style::placeholder {
+  font-size: 13px;
+}
+.file_input {
+  background-color: var(--bg_gray_sec_color);
+  padding: 0.55rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100% !important;
+}

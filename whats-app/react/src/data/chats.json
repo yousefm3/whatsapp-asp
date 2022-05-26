@@ -1,0 +1,29 @@
+[
+  {
+    "contact": {
+      "username": "phillip",
+      "displayName": "phillip morse",
+      "avatar": "phillip.png"
+    },
+    "messages": [
+      {
+        "content": "احا يا فرعون بص",
+        "time": "2022-04-22T17:08:47.825Z",
+        "isSender": true,
+        "sender": "Khaled"
+      },
+      {
+        "content": "ايه يلا في ايه ؟",
+        "time": "2022-04-22T17:08:47.825Z",
+        "isSender": false,
+        "sender": ""
+      },
+      {
+        "content": "احااا",
+        "time": "2022-04-22T17:08:47.825Z",
+        "isSender": true,
+        "sender": "Khaled"
+      }
+    ]
+  }
+]

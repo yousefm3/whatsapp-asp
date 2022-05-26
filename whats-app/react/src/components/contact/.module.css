@@ -1,0 +1,39 @@
+.contact {
+  cursor: pointer;
+  padding: 0.65rem 0;
+}
+.contact:hover {
+  background-color: var(--bg_gray_sec_color);
+}
+.contact_avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  border: 3px solid var(--bg_gray_sec_color);
+  background-color: #fff;
+}
+.contact_avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 2;
+}
+.contact_name {
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.contact.active {
+  color: #fff;
+  background-color: var(--main_green_color);
+}
+.last_message {
+  font-size: 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

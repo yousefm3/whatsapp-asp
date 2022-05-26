@@ -1,0 +1,12 @@
+.login_page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.anchor_link {
+  color: var(--main_green_color) !important;
+  font-weight: 500;
+}

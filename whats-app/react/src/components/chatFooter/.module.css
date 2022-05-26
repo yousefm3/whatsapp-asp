@@ -1,0 +1,114 @@
+.chat_footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 88px;
+  background-color: var(--bg_gray_main_color);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 1rem;
+}
+.message_input {
+  width: 100%;
+  outline: none;
+  border: 0;
+  background-color: var(--bg_gray_sec_color);
+  padding: 0.75rem 1.25rem;
+  border-radius: 6px;
+  color: #fff;
+}
+.send_btn {
+  outline: none;
+  border: 0;
+  color: #fff;
+  background-color: var(--main_green_color);
+  padding: 0.75rem;
+  border-radius: 4px;
+  width: 45px;
+}
+.attachment_btn {
+  outline: none;
+  border: 0;
+  background: transparent;
+  font-size: 20px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.473);
+  padding: 0.75rem;
+  width: 45px;
+}
+.send_btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.attachments_list {
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 50%;
+  transform: translate(-60%, -125%);
+  height: 150px;
+  position: absolute;
+  background-color: var(--bg_gray_main_color);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+  list-style: none;
+  padding: 0.25rem;
+}
+.attachments_list button {
+  background-color: transparent;
+  outline: none;
+  border: 0;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+}
+.attachments_list li span {
+  display: flex;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  font-size: 20px;
+}
+.attachments_list label {
+  font-size: 20px;
+  cursor: pointer;
+}
+.attachments_list::after {
+  content: "";
+  position: absolute;
+  bottom: -9px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid var(--bg_gray_main_color);
+}
+.filesAlert {
+  position: absolute;
+  left: 7%;
+  bottom: 125%;
+  z-index: 11;
+  background-color: #fff;
+  color: var(--bg_gray_main_color);
+  font-weight: 500;
+  font-size: 12px;
+  padding: 0.65rem;
+  border-radius: 500px;
+  min-width: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.filesAlert button {
+  outline: none;
+  border: 0;
+  color: rgb(102, 102, 102);
+}
+.isActive {
+  color: var(--main_green_color) !important;
+}
